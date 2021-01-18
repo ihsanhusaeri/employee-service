@@ -1,0 +1,14 @@
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][10:05:47]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][10:15:52]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:13:34]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:14:56]"
+[36mINFO[0m[0004] Employee CreatedObjectID("6005357406be8e3e071662ef")  [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:19:58]"
+[36mINFO[0m[0002] Employee CreatedObjectID("600536a0b5bbab12d591d89e")  [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0005] Employee CreatedObjectID("600536a2b5bbab12d591d89f")  [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0006] Employee CreatedObjectID("600536a4b5bbab12d591d8a0")  [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:23:47]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:26:58]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:29:48]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:30:13]"
+[36mINFO[0m[0007] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
