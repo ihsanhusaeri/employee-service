@@ -11,10 +11,11 @@ import (
 )
 
 func (emplHandler *employeeHandler) createEmployee(e echo.Context) error {
+	var employee entity.Employee
+
 	log.MakeLogEntry(e).Info("Incoming request: create new employee")
 	ctx := e.Request().Context()
 
-	employee := entity.Employee{}
 	if err := e.Bind(&employee); err != nil {
 		log.MakeLogEntry(e).Error("error when binding data:", err)
 		return e.JSON(response.NewResponse(http.StatusBadRequest, err, nil))
@@ -25,7 +26,6 @@ func (emplHandler *employeeHandler) createEmployee(e echo.Context) error {
 
 	if err != nil {
 		return e.JSON(response.NewResponse(http.StatusInternalServerError, err, nil))
-
 	}
 	log.MakeLogEntry(e).Info("Employee Created", res.ID)
 	return e.JSON(response.NewResponse(http.StatusCreated, "OK", res))

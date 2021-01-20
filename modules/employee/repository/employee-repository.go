@@ -8,6 +8,8 @@ import (
 	"github.com/ihsan-husaeri/employee-service/modules/employee/entity"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
+
+	log "manyoption/payment-service/middleware/logger"
 )
 
 func (emplRepository *employeeRepository) CreateEmployee(ctx context.Context, empl *entity.Employee) (*entity.Employee, error) {
@@ -15,10 +17,15 @@ func (emplRepository *employeeRepository) CreateEmployee(ctx context.Context, em
 	// fmt.Println(result)
 	id, ok := result.InsertedID.(primitive.ObjectID)
 	if !ok {
-		return nil, errors.New("Failed convert to primitive object ID")
+		log.MakeLogEntry(nil).Panic("Error convert insertedID to primitive")
+		return nil, errors.New("Internal server error")
 	}
 	empl.ID = &id
 	return empl, err
+}
+
+func (emplRepository *employeeRepository) UpdateEmployee(ctx context.Context, empl *entity.Employee) (*entity.Employee, error) {
+	return nil, nil
 }
 
 func (emplRepository *employeeRepository) GetAll(ctx context.Context) (*[]entity.Employee, error) {

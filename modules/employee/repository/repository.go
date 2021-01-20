@@ -14,6 +14,7 @@ type employeeRepository struct {
 //EmployeeRepository interface
 type EmployeeRepository interface {
 	CreateEmployee(context.Context, *entity.Employee) (*entity.Employee, error)
+	UpdateEmployee(context.Context, *entity.Employee) (*entity.Employee, error)
 	GetAll(context.Context) (*[]entity.Employee, error)
 }
 

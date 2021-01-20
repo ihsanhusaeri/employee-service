@@ -19,4 +19,4 @@
 
 # Folder to ignore
 vendor/
-log/
+logs/

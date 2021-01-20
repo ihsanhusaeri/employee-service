@@ -11,9 +11,6 @@ import (
 )
 
 func (emplService *employeeService) CreateEmployee(ctx context.Context, employee *entity.Employee) (*entity.Employee, error) {
-	// ctx, cancel := context.WithTimeout(ctx, emplService.contextTimeout)
-	// defer cancel()
-
 	result, err := emplService.employeeRepo.CreateEmployee(emplService.ctx, employee)
 	if err != nil {
 		log.MakeLogEntry(nil).Panic(err)

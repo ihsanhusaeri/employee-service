@@ -1,8 +1,0 @@
-[31mPANI[0m[0010] Cannot connect to database                    [31mTime[0m="[17-01-2021][09:56:09]"
-[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[17-01-2021][09:56:27]"
-[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[17-01-2021][10:28:46]"
-[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[17-01-2021][10:32:04]"
-[36mINFO[0m[0008] Employee Created                              [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
-[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[17-01-2021][10:38:40]"
-[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[17-01-2021][10:42:54]"
-[36mINFO[0m[0004] Employee CreatedObjectID("6003b24285b90bb2adeb6525")  [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee

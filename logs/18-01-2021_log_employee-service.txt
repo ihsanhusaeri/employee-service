@@ -12,3 +12,23 @@
 [36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:29:48]"
 [36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][14:30:13]"
 [36mINFO[0m[0007] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[1654] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[31mPANI[0m[0010] Cannot connect to database                    [31mTime[0m="[18-01-2021][15:02:25]"
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][15:02:55]"
+[36mINFO[0m[0004] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0015] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0860] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0881] Incoming request: create new employee         [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][15:17:59]"
+[36mINFO[0m[0010] Incoming request: create new employee         [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0126] Incoming request: create new employee         [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0381] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0394] Incoming request: create new employee         [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
+[36mINFO[0m[0411] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0413] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0000] Connected to database...                      [36mTime[0m="[18-01-2021][15:31:13]"
+[36mINFO[0m[0005] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0008] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0009] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0010] Incoming request: get all employee            [36mIP[0m="::1" [36mLenght[0m=0 [36mMethod[0m=GET [36mProtocol[0m=HTTP/1.1 [36mType[0m= [36mURL[0m=/employee
+[36mINFO[0m[0035] Incoming request: create new employee         [36mIP[0m="::1" [36mLenght[0m=93 [36mMethod[0m=POST [36mProtocol[0m=HTTP/1.1 [36mType[0m=application/json [36mURL[0m=/employee
