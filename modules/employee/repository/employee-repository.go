@@ -9,7 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	log "manyoption/payment-service/middleware/logger"
+	log "github.com/ihsan-husaeri/employee-service/common/logger"
 )
 
 func (emplRepository *employeeRepository) CreateEmployee(ctx context.Context, empl *entity.Employee) (*entity.Employee, error) {

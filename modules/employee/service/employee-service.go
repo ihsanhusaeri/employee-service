@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"errors"
-	log "manyoption/payment-service/middleware/logger"
+	log "github.com/ihsan-husaeri/employee-service/common/logger"
 
 	// "time"
 
